@@ -1,14 +1,14 @@
 # Loot-Generator
 
-Description: This code uses mapping structures to implement the loot generation algorithm found in Diablo II. It was written using Java.
+Description: This code uses mapping structures to implement the loot generation algorithm found in Diablo II. It was written in Java using the Eclipse IDE, the Map interface, and recursion.
 
 To generate a single piece of loot, the program goes through the following steps:
 
-1.) Randomly picks a monster to fight and beat.
+1.) Randomly picks a monster to fight and defeat.
 
-2.) Looks up the treasure class of that particular monster and using that treasure class, generates the base item that is dropped by the monster.
+2.) Looks up the treasure class of that particular monster and, using that treasure class, generates the base item that is dropped by the monster.
 
-3.) Generates the base stats for the generated base item.
+3.) Generates the base stats for the generated item.
 
 4.) Generates affixes (i.e., prefixes and suffixes) for the item and stat modifiers from those affixes.
 
